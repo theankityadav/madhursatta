@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    tools:context=".starline_timings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/grad_button"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/back"
+                    app:tint="@color/nav_tint" />
+
+                <com.madhuurstta.wbvjkmatka.latobold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/nav_tint"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/title"
+                    android:textSize="16sp"
+                    />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <com.madhuurstta.wbvjkmatka.latobold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Win Ratio"
+            android:textColor="@color/md_red_600"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:visibility="gone"
+            />
+
+        <com.madhuurstta.wbvjkmatka.latonormal
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/md_black_1000"
+            android:id="@+id/rate"
+            android:visibility="gone"
+            android:layout_marginRight="10dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:background="@drawable/small_round_black_button_border"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+
+            <com.madhuurstta.wbvjkmatka.latobold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Star Line Games"
+                android:visibility="gone"
+                android:gravity="center_horizontal"
+                android:textColor="@color/md_white_1000"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Single Digit"
+                    android:textColor="@color/md_white_1000" />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Single Digit"
+                    android:id="@+id/single"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/md_white_1000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="Single Panna"
+                    android:textColor="@color/md_white_1000" />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Single Digit"
+                    android:id="@+id/singlepatti"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/md_white_1000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="Double Panna"
+                    android:textColor="@color/md_white_1000"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Single Digit"
+                    android:id="@+id/doublepatti"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/md_white_1000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Triple Panna"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/md_white_1000"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Single Digit"
+                    android:id="@+id/tripepatti"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/md_white_1000"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="BID\nHISTORY"
+                    android:textColor="@color/md_white_1000"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:background="@drawable/black_button"
+                    android:id="@+id/bid_history"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:id="@+id/result_history"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/black_button"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="RESULT\nHISTORY"
+                    android:textColor="@color/md_white_1000" />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="RESULT\nCHART"
+                    android:textColor="@color/md_white_1000"
+                    android:background="@drawable/black_button"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:id="@+id/chart"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/result_history_pop"
+        android:visibility="gone"
+        android:background="@color/md_white_1000"
+        android:layout_height="match_parent">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/primary"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:background="@color/primary"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/back"
+                    app:tint="@color/md_white_1000"
+                    android:id="@+id/back2"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latobold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_white_1000"
+                    android:layout_marginLeft="20dp"
+                    android:text="Result History"
+                    android:textSize="16sp"
+                    />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

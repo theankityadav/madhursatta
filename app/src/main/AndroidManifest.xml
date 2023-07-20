@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.madhuurstta.wbvjkmatka">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="upi" />
+        </intent>
+
+        <!-- Chooser Intent for UPI apps -->
+        <intent>
+            <action android:name="android.intent.action.CHOOSER" />
+            <data android:scheme="upi" />
+        </intent>
+
+
+        <!-- Explicit apps you know in advance about: -->
+        <package android:name="com.google.android.apps.nbu.paisa.user"/>
+        <package android:name="net.one97.paytm"/>
+        <package android:name="com.phonepe.app"/>
+    </queries>
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.DelhiGames"
+            android:exported="false" />
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.DelhiJodiMarkets"
+            android:exported="false" />
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.AdminMessage"
+            android:exported="false" />
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.OTPVerification"
+            android:exported="false" />
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.TransferCoin"
+            android:exported="false" />
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.Wallet"
+            android:exported="false" />
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.starline_timings"
+            android:exported="false" />
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.starline_games"
+            android:exported="false" />
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.WithdrawDetails"
+            android:exported="false" />
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.SpMotor"
+            android:exported="false" />
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.SpDpTp"
+            android:exported="false" />
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.RedBracket"
+            android:exported="false" />
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.OddEven"
+            android:exported="false" />
+        <activity
+            android:name="com.madhuurstta.wbvjkmatka.starline_markets"
+            android:exported="true" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.withdraw"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.single_bet"
+            android:exported="false"/>
+        <activity android:name="com.madhuurstta.wbvjkmatka.games"
+            android:exported="false"/>
+        <activity android:name="com.madhuurstta.wbvjkmatka.deposit_money"
+            android:exported="false"/>
+        <activity android:name="com.madhuurstta.wbvjkmatka.webview"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.chart_menu"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.charts"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.crossing"
+            android:exported="false"/>
+        <activity android:name="com.madhuurstta.wbvjkmatka.earn"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.fullsangam"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.halfsangam"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.betting"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.madhuurstta.wbvjkmatka.ledger"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.transactions"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.played"
+            android:exported="false"/>
+        <activity android:name="com.madhuurstta.wbvjkmatka.howot"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.thankyou"
+            android:exported="false"/>
+        <activity android:name="com.madhuurstta.wbvjkmatka.bazar"
+            android:exported="false"/>
+        <activity android:name="com.madhuurstta.wbvjkmatka.notice"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.rate"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.profile"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.signup"
+            android:exported="false"/>
+        <activity android:name="com.madhuurstta.wbvjkmatka.login"
+            android:exported="false" />
+        <activity android:name="com.madhuurstta.wbvjkmatka.MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo" />
+    </application>
+
+</manifest>

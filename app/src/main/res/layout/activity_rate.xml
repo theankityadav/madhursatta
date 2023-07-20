@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    tools:context=".rate">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/grad_button"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:src="@drawable/back"
+                    app:tint="@color/nav_tint" />
+
+
+                <com.madhuurstta.wbvjkmatka.latobold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="Game Rate"
+                    android:textColor="@color/nav_tint"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                >
+
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:background="@drawable/login_button"
+                   android:padding="0dp"
+                   android:layout_height="match_parent">
+
+                   <com.madhuurstta.wbvjkmatka.latobold
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_centerVertical="true"
+                       android:layout_toLeftOf="@id/single"
+                       android:gravity="center"
+                       android:text="Single"
+                       android:textColor="@color/font"
+                       android:textSize="16sp" />
+
+                   <com.madhuurstta.wbvjkmatka.latonormal
+                       android:id="@+id/single"
+                       android:layout_width="160dp"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentRight="true"
+                       android:background="@drawable/black_button"
+                       android:gravity="center"
+                       android:padding="15dp"
+                       android:text="Loading"
+                       android:textColor="@color/md_white_1000"
+                       android:textFontWeight="600"
+                       android:textSize="16sp" />
+
+               </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/login_button"
+                    android:padding="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="match_parent">
+
+                    <com.madhuurstta.wbvjkmatka.latobold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/doublegame"
+                        android:gravity="center"
+                        android:text="Double"
+                        android:textColor="@color/font"
+                        android:textSize="16sp" />
+
+                    <com.madhuurstta.wbvjkmatka.latonormal
+                        android:id="@+id/doublegame"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/black_button"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Loading"
+                        android:textColor="@color/md_white_1000"
+                        android:textFontWeight="600"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/login_button"
+                    android:padding="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="match_parent">
+
+                    <com.madhuurstta.wbvjkmatka.latobold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/singlepatti"
+                        android:gravity="center"
+                        android:text="Single Panna"
+                        android:textColor="@color/font"
+                        android:textSize="16sp" />
+
+                    <com.madhuurstta.wbvjkmatka.latonormal
+                        android:id="@+id/singlepatti"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/black_button"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Loading"
+                        android:textColor="@color/md_white_1000"
+                        android:textFontWeight="600"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/login_button"
+                    android:padding="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="match_parent">
+
+                    <com.madhuurstta.wbvjkmatka.latobold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/doublepatti"
+                        android:gravity="center"
+                        android:text="Double Panna"
+                        android:textColor="@color/font"
+                        android:textSize="16sp" />
+
+                    <com.madhuurstta.wbvjkmatka.latonormal
+                        android:id="@+id/doublepatti"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/black_button"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Loading"
+                        android:textColor="@color/md_white_1000"
+                        android:textFontWeight="600"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/login_button"
+                    android:padding="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="match_parent">
+
+                    <com.madhuurstta.wbvjkmatka.latobold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/tripepatti"
+                        android:gravity="center"
+                        android:text="Triple Panna"
+                        android:textColor="@color/font"
+                        android:textSize="16sp" />
+
+                    <com.madhuurstta.wbvjkmatka.latonormal
+                        android:id="@+id/tripepatti"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/black_button"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Loading"
+                        android:textColor="@color/md_white_1000"
+                        android:textFontWeight="600"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/login_button"
+                    android:padding="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="match_parent">
+
+                    <com.madhuurstta.wbvjkmatka.latobold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/halfsangam"
+                        android:gravity="center"
+                        android:text="Half Sangam"
+                        android:textColor="@color/font"
+                        android:textSize="16sp" />
+
+                    <com.madhuurstta.wbvjkmatka.latonormal
+                        android:id="@+id/halfsangam"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/black_button"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Loading"
+                        android:textColor="@color/md_white_1000"
+                        android:textFontWeight="600"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/login_button"
+                    android:padding="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="match_parent">
+
+                    <com.madhuurstta.wbvjkmatka.latobold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/fullsangam"
+                        android:gravity="center"
+                        android:text="Full Sangam"
+                        android:textColor="@color/font"
+                        android:textSize="16sp" />
+
+                    <com.madhuurstta.wbvjkmatka.latonormal
+                        android:id="@+id/fullsangam"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/black_button"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Loading"
+                        android:textColor="@color/md_white_1000"
+                        android:textFontWeight="600"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

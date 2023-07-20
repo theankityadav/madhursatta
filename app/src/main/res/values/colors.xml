@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryULight">#07052A</color>
+    <color name="colorPrimaryLight">#07052A</color>
+    <color name="colorPrimaryMed">#07052A</color>
+    <color name="colorPrimary">#07052A</color>
+    <color name="AccentDark">#07052A</color>
+    <color name="colorPrimaryDark">#07052A</color>
+    <color name="a2">#07052A</color>
+    <color name="colorAccent">#07052A</color>
+    <color name="colorAccentLight">#07052A</color>
+    <color name="background">#fff</color>
+    <color name="font">#000</color>
+    <color name="lightfont">#00162d</color>
+    <color name="back">#5BD8E4EA</color>
+    <color name="gray">#D8E4EA</color>
+    <color name="ultralight">#2C000000</color>
+    <color name="green">#00ff19</color>
+    <color name="nav_color">#FF9899</color>
+    <color name="light_gray">#D9D9D9</color>
+    <color name="nav_tint">#FFFFFF</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="deposit_text">#000</color>
+</resources>

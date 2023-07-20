@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layout"
+        android:layout_margin="7dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@drawable/button"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="80dp"
+            android:padding="0dp"
+            android:layout_height="wrap_content"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp">
+
+
+                <com.madhuurstta.wbvjkmatka.latobold
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/black_button"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="10:00 AM"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="21sp" />
+
+
+                <com.madhuurstta.wbvjkmatka.latobold
+                    android:id="@+id/result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="367"
+                    android:textColor="@color/button_text"
+                    android:textSize="24sp" />
+
+
+                <com.madhuurstta.wbvjkmatka.latobold
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:text="RUNNING"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="21sp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/play_game"
+            >
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/play_image"
+                android:layout_gravity="right"
+                android:src="@drawable/play_big" />
+
+
+            <com.madhuurstta.wbvjkmatka.latobold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="Play Game"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/font"
+                android:textSize="16sp"
+                />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:visibility="gone"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/login_button_round"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/play_button"
+                android:visibility="gone" />
+
+
+            <cn.iwgang.countdownview.CountdownView
+                android:layout_width="wrap_content"
+                android:id="@+id/timer"
+                android:layout_height="wrap_content"
+                app:isHideTimeBackground="true"
+                app:isShowMinute="true"
+                android:layout_marginTop="5dp"
+                app:isShowSecond="true"
+                app:timeTextColor="@color/a2"
+                app:timeTextSize="14sp"
+                app:isTimeTextBold="true"
+                app:suffixGravity="bottom"
+                app:suffixTextColor="@color/a2"
+                app:suffixTextSize="12sp"
+                app:suffixMinute=":"
+                app:isShowHour="true"
+                app:suffixHour=":"
+                app:suffixSecond="" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

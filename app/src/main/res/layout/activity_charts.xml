@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_image"
+    android:layout_height="match_parent"
+    tools:context=".charts">
+
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grad_button"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="10dp"
+                android:id="@+id/back"
+                android:layout_margin="10dp"
+                android:src="@drawable/back"
+                app:tint="@color/nav_tint" />
+
+
+
+            <com.madhuurstta.wbvjkmatka.latobold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/nav_tint"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="Chart"
+                />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <im.delight.android.webview.AdvancedWebView
+        android:id="@+id/webview"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

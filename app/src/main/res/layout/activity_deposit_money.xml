@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".deposit_money">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/grad_button">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_margin="15dp"
+                    android:padding="5dp"
+                    android:src="@drawable/back"
+                    app:tint="@color/md_white_1000" />
+
+
+                <com.madhuurstta.wbvjkmatka.latobold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="Deposit Coins"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <com.madhuurstta.wbvjkmatka.latobold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/background"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Balance"
+                        android:textColor="@color/accent"
+                        android:textSize="21sp" />
+
+
+                    <com.madhuurstta.wbvjkmatka.latobold
+                        android:id="@+id/wallet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@color/background"
+                        android:gravity="center"
+                        android:padding="7dp"
+                        android:text="0"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="21sp" />
+
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/login_button"
+                    android:hint="Enter Amount to add"
+                    android:inputType="number"
+                    android:padding="15dp"
+                    android:textColor="@color/primary"
+                    android:textColorHint="@color/primary"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+
+                    <LinearLayout
+                        android:id="@+id/gpay_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/small_round_white_button_border"
+
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/googlepay" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <com.madhuurstta.wbvjkmatka.latobold
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Google Pay"
+                                android:textColor="@color/md_white_1000" />
+
+                            <com.madhuurstta.wbvjkmatka.latobold
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Auto approve"
+                                android:textColor="@color/md_white_1000" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/phonepe_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/small_round_white_button_border"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/phone_pe" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+                            <com.madhuurstta.wbvjkmatka.latobold
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Phone Pe"
+                                android:textColor="@color/md_white_1000" />
+
+                            <com.madhuurstta.wbvjkmatka.latobold
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Auto approve"
+                                android:textColor="@color/md_white_1000" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/paytm_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/small_round_white_button_border"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/paytm" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <com.madhuurstta.wbvjkmatka.latobold
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Paytm"
+                                android:textColor="@color/md_white_1000" />
+
+                            <com.madhuurstta.wbvjkmatka.latobold
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Manual approve by admin"
+                                android:textColor="@color/md_white_1000" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <lib.kingja.switchbutton.SwitchMultiButton
+                        android:id="@+id/switchmultibutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:padding="12dp"
+                        android:visibility="gone"
+                        app:selectedColor="@color/accent"
+                        app:selectedTab="0"
+                        app:strokeRadius="5dp"
+                        app:strokeWidth="1dp"
+                        app:textSize="16sp" />
+
+                </RelativeLayout>
+
+                <com.madhuurstta.wbvjkmatka.latobold
+                    android:id="@+id/submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:background="@drawable/button"
+                    android:gravity="center_horizontal"
+                    android:text="Proceed to Payment"
+                    android:textColor="#fff"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_btn"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:id="@+id/whatsapp"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/whatsapp"
+            />
+
+        <com.madhuurstta.wbvjkmatka.latobold
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:text="Direct Deposit"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/font"
+            />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

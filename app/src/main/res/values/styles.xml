@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Widget.MaterialDrawerStyle" parent="MaterialDrawerTheme">
+        <item name="materialDrawerInsetForeground">#4000</item>
+        <!-- MaterialDrawer specific values -->
+        <item name="materialDrawerBackground">?colorSurface</item>
+        <item name="materialDrawerPrimaryText">@color/md_black_1000</item>
+        <item name="materialDrawerPrimaryIcon">@color/md_black_1000</item>
+        <item name="materialDrawerSecondaryText">@color/md_black_1000</item>
+        <item name="materialDrawerSecondaryIcon">@color/md_black_1000</item>
+        <item name="materialDrawerDividerColor">@color/md_black_1000</item>
+        <item name="materialDrawerSelectedBackgroundColor">@color/primary</item>
+    </style>
+
+    <style name="Widget.MaterialDrawerHeaderStyle" parent="">
+        <item name="materialDrawerCompactStyle">false</item>
+        <item name="materialDrawerHeaderSelectionText">@color/primary_dark</item>
+        <item name="materialDrawerHeaderSelectionSubtext">@color/primary_dark</item>
+    </style>
+
+    <!-- BezelImageView -->
+    <style name="BezelImageView">
+        <item name="materialDrawerMaskDrawable">@drawable/dark_circle</item>
+        <item name="materialDrawerDrawCircularShadow">true</item>
+        <item name="materialDrawerSelectorOnPress">@color/primary_dark</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+</resources>

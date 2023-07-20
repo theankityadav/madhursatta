@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+
+    tools:context=".MainActivity">
+
+    <include layout="@layout/nav_view" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/loading_gif"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:elevation="50dp"
+            android:scaleType="fitCenter"
+            />
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swiperefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/toolbar"
+                    android:background="@color/background"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="10dp">
+
+                        <ImageView
+                            android:id="@+id/back"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/three_dot"
+                            app:tint="@color/md_white_1000" />
+
+
+                        <com.madhuurstta.wbvjkmatka.eczarbold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@id/back"
+                            android:adjustViewBounds="true"
+                            android:text="@string/app_name"
+                            android:textColor="@color/md_white_1000"
+                            android:textSize="20sp" />
+
+                        <LinearLayout
+                            android:id="@+id/not_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10dp">
+
+                            <RelativeLayout
+                                android:id="@+id/not_icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="45dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/notification"
+                                    android:visibility="gone" />
+
+                                <ImageView
+                                    android:layout_width="36dp"
+                                    android:layout_height="36dp"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/bell" />
+
+                            </RelativeLayout>
+
+                            <androidx.appcompat.widget.SwitchCompat
+                                android:id="@+id/resultNotification"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:thumb="@drawable/thumb_selector"
+                                app:track="@drawable/track_selector" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/wallet_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dp"
+                            android:layout_toLeftOf="@id/not_view"
+                            android:background="@drawable/wallet_out"
+                            android:padding="8dp">
+
+
+                            <ImageView
+                                android:id="@+id/coin"
+                                android:layout_width="21dp"
+                                android:layout_height="21dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/wallet_figma"
+                                app:tint="@color/md_white_1000" />
+
+                            <com.madhuurstta.wbvjkmatka.latobold
+                                android:id="@+id/balance"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="600"
+                                android:textColor="@color/md_white_1000"
+                                android:textSize="15sp" />
+
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/toolbar"
+                        android:orientation="vertical">
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+                            <com.smarteist.autoimageslider.SliderView
+                                android:id="@+id/imageSlider"
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                app:sliderAnimationDuration="600"
+                                app:sliderAutoCycleDirection="back_and_forth"
+                                app:sliderAutoCycleEnabled="true"
+                                app:sliderIndicatorAnimationDuration="600"
+                                app:sliderIndicatorGravity="center_horizontal|bottom"
+                                app:sliderIndicatorMargin="15dp"
+                                app:sliderIndicatorOrientation="horizontal"
+                                app:sliderIndicatorPadding="3dp"
+                                app:sliderIndicatorRadius="1.5dp"
+                                app:sliderIndicatorSelectedColor="#5A5A5A"
+                                app:sliderIndicatorUnselectedColor="#FFF"
+                                app:sliderScrollTimeInSec="1"
+                                app:sliderStartAutoCycle="true" />
+
+
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/primary">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:layout_marginLeft="5dp"
+                                android:id="@+id/add_money"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/add_money_big"
+                                    />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:layout_marginLeft="5dp"
+                                android:id="@+id/withdraw"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/withdraw_big" />
+
+
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:id="@+id/whatsapp"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp"
+                                    android:padding="5dp"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/whatsapp_hoe"/>
+
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:id="@+id/telegram"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="8dp"
+                                    android:src="@drawable/telegram_home"
+                                    />
+
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:id="@+id/call_figma"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="60dp"
+                                    android:adjustViewBounds="true"
+                                    android:padding="8dp"
+                                    android:src="@drawable/call_home"
+                                    />
+
+
+
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_marginBottom="3dp"
+                            android:layout_height="wrap_content">
+
+
+
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:id="@+id/play_delhi"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/disawar_big"
+                                    />
+
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:id="@+id/play_starline"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/starline_big"
+                                    />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+
+
+
+
+
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recyclerview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.core.widget.NestedScrollView>
+
+
+            </LinearLayout>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

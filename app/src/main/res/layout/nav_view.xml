@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navView"
+    android:layout_width="wrap_content"
+    app:elevation="25dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@color/primary_dark"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <com.madhuurstta.wbvjkmatka.latonormal
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hi"
+                        android:id="@+id/name"
+                        android:textColor="@color/button_text"
+                        android:textSize="15sp"
+                        />
+
+
+                    <com.madhuurstta.wbvjkmatka.latonormal
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7014965550"
+                        android:textColor="@color/button_text"
+                        android:id="@+id/mobile"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="40dp"
+                    android:src="@mipmap/ic_launcher"
+                    />
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/profile"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/profile"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="My Profile"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/wallet"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/wallet"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="My Wallet"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/game_history"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/hgame"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Game History"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/game_rate"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/rgame"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Game Rate"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/add_points"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/im_addfunds"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Add Points"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/withdraw_points"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/im_withdrawfunds"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Withdraw Points"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/bid_history_2"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/im_withdrawfunds"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Bid Historu Points"
+                    android:visibility="gone"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/winning_2"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/im_withdrawfunds"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Winning History"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/transaction"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/im_withdrawfunds"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Transaction History"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/bank_details"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_bank"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Bank Details"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/transfer_coins"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/transfer_coin"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Transfer Coins"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/how_to_play"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/play_button"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="How To Play"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/contact_us"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/contact"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/share_now"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/share"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Share Now"
+                    />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:id="@+id/rate_us"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/stars"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Rate us"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6B005848"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/logout"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/logout"
+                    />
+
+                <com.madhuurstta.wbvjkmatka.latonormal
+                    android:layout_width="match_parent"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/primary_dark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Logout Account"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    </com.google.android.material.navigation.NavigationView>
