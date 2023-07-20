@@ -62,7 +62,7 @@
                             app:tint="@color/md_white_1000" />
 
 
-                        <com.madhuurstta.wbvjkmatka.eczarbold
+                        <com.madhuurstta.makta.eczarbold
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
@@ -134,7 +134,7 @@
                                 android:src="@drawable/wallet_figma"
                                 app:tint="@color/md_white_1000" />
 
-                            <com.madhuurstta.wbvjkmatka.latobold
+                            <com.madhuurstta.makta.latobold
                                 android:id="@+id/balance"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"

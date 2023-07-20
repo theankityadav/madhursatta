@@ -35,7 +35,7 @@
                     android:layout_weight="4"
                     >
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="2 Nov 2019"
@@ -44,7 +44,7 @@
                         android:textSize="12sp"
                         />
 
-                    <com.madhuurstta.wbvjkmatka.latonormal
+                    <com.madhuurstta.makta.latonormal
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Kalyan Open"
@@ -62,7 +62,7 @@
                     android:layout_weight="4"
                     >
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="match_parent"
                         android:gravity="center_horizontal"
                         android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
                         />
 
 
-                    <com.madhuurstta.wbvjkmatka.latonormal
+                    <com.madhuurstta.makta.latonormal
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
@@ -92,7 +92,7 @@
                     android:layout_weight="4"
                     >
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="match_parent"
                         android:gravity="right"
                         android:layout_height="wrap_content"
@@ -101,7 +101,7 @@
                         android:textSize="12sp"
                         />
 
-                    <com.madhuurstta.wbvjkmatka.latonormal
+                    <com.madhuurstta.makta.latonormal
                         android:layout_width="match_parent"
                         android:gravity="right"
                         android:id="@+id/amount"

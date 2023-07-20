@@ -35,7 +35,7 @@
                     android:src="@drawable/back"
                     app:tint="@color/nav_tint" />
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/nav_tint"
@@ -49,7 +49,7 @@
 
         </RelativeLayout>
 
-        <com.madhuurstta.wbvjkmatka.latobold
+        <com.madhuurstta.makta.latobold
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Win Ratio"
@@ -59,7 +59,7 @@
             android:visibility="gone"
             />
 
-        <com.madhuurstta.wbvjkmatka.latonormal
+        <com.madhuurstta.makta.latonormal
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -78,7 +78,7 @@
             android:padding="5dp"
             android:layout_height="wrap_content">
 
-            <com.madhuurstta.wbvjkmatka.latobold
+            <com.madhuurstta.makta.latobold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Star Line Games"
@@ -95,14 +95,14 @@
                 android:gravity="center"
                 android:layout_height="wrap_content">
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="wrap_content"
                     android:layout_marginRight="10dp"
                     android:layout_height="wrap_content"
                     android:text="Single Digit"
                     android:textColor="@color/md_white_1000" />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Single Digit"
@@ -119,14 +119,14 @@
                 android:gravity="center"
                 android:layout_height="wrap_content">
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
                     android:text="Single Panna"
                     android:textColor="@color/md_white_1000" />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Single Digit"
@@ -143,7 +143,7 @@
                 android:gravity="center"
                 android:layout_height="wrap_content">
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
@@ -151,7 +151,7 @@
                     android:textColor="@color/md_white_1000"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Single Digit"
@@ -168,7 +168,7 @@
                 android:gravity="center"
                 android:layout_height="wrap_content">
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Triple Panna"
@@ -176,7 +176,7 @@
                     android:textColor="@color/md_white_1000"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Single Digit"
@@ -194,7 +194,7 @@
                 android:padding="5dp"
                 android:layout_height="wrap_content">
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
@@ -206,7 +206,7 @@
                     android:id="@+id/bid_history"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:id="@+id/result_history"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -219,7 +219,7 @@
                     android:text="RESULT\nHISTORY"
                     android:textColor="@color/md_white_1000" />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
@@ -282,7 +282,7 @@
                     android:id="@+id/back2"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/md_white_1000"

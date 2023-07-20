@@ -35,7 +35,7 @@
                     app:tint="@color/md_white_1000" />
 
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -64,7 +64,7 @@
                 android:orientation="vertical"
                 android:padding="15dp">
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:id="@+id/amount"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
@@ -93,7 +93,7 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/add_ww" />
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -124,7 +124,7 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/withdraw_ww" />
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -156,7 +156,7 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/some_dot_white" />
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -188,7 +188,7 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/some_dot_white" />
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -219,7 +219,7 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/some_dot_white" />
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"

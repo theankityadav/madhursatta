@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
+ //apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 32
     defaultConfig {
-        applicationId "com.madhuurstta.wbvjkmatka"
+        applicationId "com.madhuurstta.makta"
         minSdkVersion 19
         targetSdkVersion 32
         versionCode 1

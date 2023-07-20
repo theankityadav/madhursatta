@@ -35,7 +35,7 @@
                     app:tint="@color/nav_tint" />
 
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -67,7 +67,7 @@
 
 
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Loading..."

@@ -31,7 +31,7 @@
                     android:orientation="vertical"
                     >
 
-                    <com.madhuurstta.wbvjkmatka.latonormal
+                    <com.madhuurstta.makta.latonormal
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Hi"
@@ -41,7 +41,7 @@
                         />
 
 
-                    <com.madhuurstta.wbvjkmatka.latonormal
+                    <com.madhuurstta.makta.latonormal
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="7014965550"
@@ -73,7 +73,7 @@
                     android:src="@drawable/profile"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -103,7 +103,7 @@
                     android:src="@drawable/wallet"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -134,7 +134,7 @@
                     android:src="@drawable/hgame"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -164,7 +164,7 @@
                     android:src="@drawable/rgame"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -194,7 +194,7 @@
                     android:src="@drawable/im_addfunds"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -224,7 +224,7 @@
                     android:src="@drawable/im_withdrawfunds"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -254,7 +254,7 @@
                     android:src="@drawable/im_withdrawfunds"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -284,7 +284,7 @@
                     android:src="@drawable/im_withdrawfunds"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -313,7 +313,7 @@
                     android:src="@drawable/im_withdrawfunds"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -343,7 +343,7 @@
                     android:src="@drawable/ic_bank"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -373,7 +373,7 @@
                     android:src="@drawable/transfer_coin"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -402,7 +402,7 @@
                     android:src="@drawable/play_button"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -431,7 +431,7 @@
                     android:src="@drawable/contact"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -460,7 +460,7 @@
                     android:src="@drawable/share"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -490,7 +490,7 @@
                     android:src="@drawable/stars"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"
@@ -520,7 +520,7 @@
                     android:src="@drawable/logout"
                     />
 
-                <com.madhuurstta.wbvjkmatka.latonormal
+                <com.madhuurstta.makta.latonormal
                     android:layout_width="match_parent"
                     android:paddingLeft="20dp"
                     android:textColor="@color/primary_dark"

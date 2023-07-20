@@ -35,7 +35,7 @@
                     app:tint="@color/nav_tint" />
 
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -64,7 +64,7 @@
                 android:padding="20dp">
 
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Account Number"
@@ -84,7 +84,7 @@
                     android:textSize="13sp" />
 
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
@@ -104,7 +104,7 @@
                     android:inputType="textEmailAddress"
                     android:textSize="13sp" />
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
@@ -124,7 +124,7 @@
                     android:textSize="13sp" />
 
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:id="@+id/submit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

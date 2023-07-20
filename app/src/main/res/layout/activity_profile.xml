@@ -35,7 +35,7 @@
                     app:tint="@color/nav_tint" />
 
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -65,7 +65,7 @@
                 >
 
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Manage profile"
@@ -118,7 +118,7 @@
                     />
 
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Update Profile"
@@ -131,7 +131,7 @@
 
 
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Change Password"
@@ -171,7 +171,7 @@
                     />
 
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Update Password"

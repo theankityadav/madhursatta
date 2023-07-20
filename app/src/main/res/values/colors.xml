@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimaryULight">#07052A</color>
-    <color name="colorPrimaryLight">#07052A</color>
-    <color name="colorPrimaryMed">#07052A</color>
-    <color name="colorPrimary">#07052A</color>
-    <color name="AccentDark">#07052A</color>
-    <color name="colorPrimaryDark">#07052A</color>
-    <color name="a2">#07052A</color>
-    <color name="colorAccent">#07052A</color>
-    <color name="colorAccentLight">#07052A</color>
+    <color name="colorPrimaryULight">#004f53</color>
+    <color name="colorPrimaryLight">#004f53</color>
+    <color name="colorPrimaryMed">#004f53</color>
+    <color name="colorPrimary">#004f53</color>
+    <color name="AccentDark">#004f53</color>
+    <color name="colorPrimaryDark">#004f53</color>
+    <color name="a2">#004f53</color>
+    <color name="colorAccent">#004f53</color>
+    <color name="colorAccentLight">#004f53</color>
+   <!-- <color name="colorAccentLight">#07052A</color>-->
     <color name="background">#fff</color>
     <color name="font">#000</color>
     <color name="lightfont">#00162d</color>

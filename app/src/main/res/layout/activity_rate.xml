@@ -37,7 +37,7 @@
                     app:tint="@color/nav_tint" />
 
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -74,7 +74,7 @@
                    android:padding="0dp"
                    android:layout_height="match_parent">
 
-                   <com.madhuurstta.wbvjkmatka.latobold
+                   <com.madhuurstta.makta.latobold
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
                        android:layout_centerVertical="true"
@@ -84,7 +84,7 @@
                        android:textColor="@color/font"
                        android:textSize="16sp" />
 
-                   <com.madhuurstta.wbvjkmatka.latonormal
+                   <com.madhuurstta.makta.latonormal
                        android:id="@+id/single"
                        android:layout_width="160dp"
                        android:layout_height="wrap_content"
@@ -106,7 +106,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_height="match_parent">
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -116,7 +116,7 @@
                         android:textColor="@color/font"
                         android:textSize="16sp" />
 
-                    <com.madhuurstta.wbvjkmatka.latonormal
+                    <com.madhuurstta.makta.latonormal
                         android:id="@+id/doublegame"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
@@ -139,7 +139,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_height="match_parent">
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -149,7 +149,7 @@
                         android:textColor="@color/font"
                         android:textSize="16sp" />
 
-                    <com.madhuurstta.wbvjkmatka.latonormal
+                    <com.madhuurstta.makta.latonormal
                         android:id="@+id/singlepatti"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
@@ -172,7 +172,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_height="match_parent">
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -182,7 +182,7 @@
                         android:textColor="@color/font"
                         android:textSize="16sp" />
 
-                    <com.madhuurstta.wbvjkmatka.latonormal
+                    <com.madhuurstta.makta.latonormal
                         android:id="@+id/doublepatti"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
@@ -206,7 +206,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_height="match_parent">
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -216,7 +216,7 @@
                         android:textColor="@color/font"
                         android:textSize="16sp" />
 
-                    <com.madhuurstta.wbvjkmatka.latonormal
+                    <com.madhuurstta.makta.latonormal
                         android:id="@+id/tripepatti"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
@@ -240,7 +240,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_height="match_parent">
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -250,7 +250,7 @@
                         android:textColor="@color/font"
                         android:textSize="16sp" />
 
-                    <com.madhuurstta.wbvjkmatka.latonormal
+                    <com.madhuurstta.makta.latonormal
                         android:id="@+id/halfsangam"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
@@ -273,7 +273,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_height="match_parent">
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
@@ -283,7 +283,7 @@
                         android:textColor="@color/font"
                         android:textSize="16sp" />
 
-                    <com.madhuurstta.wbvjkmatka.latonormal
+                    <com.madhuurstta.makta.latonormal
                         android:id="@+id/fullsangam"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"

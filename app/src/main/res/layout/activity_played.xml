@@ -48,7 +48,7 @@
                         app:tint="@color/md_white_1000" />
 
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
@@ -65,7 +65,7 @@
 
             </RelativeLayout>
 
-            <com.madhuurstta.wbvjkmatka.latobold
+            <com.madhuurstta.makta.latobold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/toolbar"

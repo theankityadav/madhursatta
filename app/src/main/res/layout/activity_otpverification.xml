@@ -15,7 +15,7 @@
         android:padding="15dp">
 
 
-        <com.madhuurstta.wbvjkmatka.latobold
+        <com.madhuurstta.makta.latobold
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -23,7 +23,7 @@
             android:textColor="@color/lightfont"
             android:textSize="30sp" />
 
-        <com.madhuurstta.wbvjkmatka.latonormal
+        <com.madhuurstta.makta.latonormal
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -101,7 +101,7 @@
 
         </LinearLayout>
 
-        <com.madhuurstta.wbvjkmatka.latonormal
+        <com.madhuurstta.makta.latonormal
             android:id="@+id/verify"
             android:layout_width="match_parent"
             android:layout_height="45dp"
@@ -112,14 +112,14 @@
             android:textColor="@color/primary"
             android:textSize="15sp" />
 
-        <com.madhuurstta.wbvjkmatka.latonormal
+        <com.madhuurstta.makta.latonormal
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:text="Didn't you receive any code ?"
             android:textColor="@color/lightfont" />
 
-        <com.madhuurstta.wbvjkmatka.latonormal
+        <com.madhuurstta.makta.latonormal
             android:id="@+id/resend_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -22,7 +22,7 @@
         android:layout_centerVertical="true"
         android:layout_height="wrap_content">
 
-        <com.madhuurstta.wbvjkmatka.latobold
+        <com.madhuurstta.makta.latobold
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/hi_msg"
@@ -31,7 +31,7 @@
             android:textSize="15sp"
             />
 
-        <com.madhuurstta.wbvjkmatka.latobold
+        <com.madhuurstta.makta.latobold
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Welcome"

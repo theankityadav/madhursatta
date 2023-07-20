@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.madhuurstta.wbvjkmatka">
+    package="com.madhuurstta.makta">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -31,82 +31,82 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.ForgotPassword"
+            android:name="com.madhuurstta.makta.ForgotPassword"
             android:exported="false" />
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.DelhiGames"
+            android:name="com.madhuurstta.makta.DelhiGames"
             android:exported="false" />
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.DelhiJodiMarkets"
+            android:name="com.madhuurstta.makta.DelhiJodiMarkets"
             android:exported="false" />
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.AdminMessage"
+            android:name="com.madhuurstta.makta.AdminMessage"
             android:exported="false" />
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.OTPVerification"
+            android:name="com.madhuurstta.makta.OTPVerification"
             android:exported="false" />
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.TransferCoin"
+            android:name="com.madhuurstta.makta.TransferCoin"
             android:exported="false" />
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.Wallet"
+            android:name="com.madhuurstta.makta.Wallet"
             android:exported="false" />
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.starline_timings"
+            android:name="com.madhuurstta.makta.starline_timings"
             android:exported="false" />
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.starline_games"
+            android:name="com.madhuurstta.makta.starline_games"
             android:exported="false" />
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.WithdrawDetails"
+            android:name="com.madhuurstta.makta.WithdrawDetails"
             android:exported="false" />
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.SpMotor"
+            android:name="com.madhuurstta.makta.SpMotor"
             android:exported="false" />
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.SpDpTp"
+            android:name="com.madhuurstta.makta.SpDpTp"
             android:exported="false" />
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.RedBracket"
+            android:name="com.madhuurstta.makta.RedBracket"
             android:exported="false" />
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.OddEven"
+            android:name="com.madhuurstta.makta.OddEven"
             android:exported="false" />
         <activity
-            android:name="com.madhuurstta.wbvjkmatka.starline_markets"
+            android:name="com.madhuurstta.makta.starline_markets"
             android:exported="true" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.withdraw"
+        <activity android:name="com.madhuurstta.makta.withdraw"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.single_bet"
+        <activity android:name="com.madhuurstta.makta.single_bet"
             android:exported="false"/>
-        <activity android:name="com.madhuurstta.wbvjkmatka.games"
+        <activity android:name="com.madhuurstta.makta.games"
             android:exported="false"/>
-        <activity android:name="com.madhuurstta.wbvjkmatka.deposit_money"
+        <activity android:name="com.madhuurstta.makta.deposit_money"
             android:exported="false"/>
-        <activity android:name="com.madhuurstta.wbvjkmatka.webview"
+        <activity android:name="com.madhuurstta.makta.webview"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.chart_menu"
+        <activity android:name="com.madhuurstta.makta.chart_menu"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.charts"
+        <activity android:name="com.madhuurstta.makta.charts"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.crossing"
+        <activity android:name="com.madhuurstta.makta.crossing"
             android:exported="false"/>
-        <activity android:name="com.madhuurstta.wbvjkmatka.earn"
+        <activity android:name="com.madhuurstta.makta.earn"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.fullsangam"
+        <activity android:name="com.madhuurstta.makta.fullsangam"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.halfsangam"
+        <activity android:name="com.madhuurstta.makta.halfsangam"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.betting"
+        <activity android:name="com.madhuurstta.makta.betting"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.splash"
+        <activity android:name="com.madhuurstta.makta.splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -114,29 +114,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.madhuurstta.wbvjkmatka.ledger"
+        <activity android:name="com.madhuurstta.makta.ledger"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.transactions"
+        <activity android:name="com.madhuurstta.makta.transactions"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.played"
+        <activity android:name="com.madhuurstta.makta.played"
             android:exported="false"/>
-        <activity android:name="com.madhuurstta.wbvjkmatka.howot"
+        <activity android:name="com.madhuurstta.makta.howot"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.thankyou"
+        <activity android:name="com.madhuurstta.makta.thankyou"
             android:exported="false"/>
-        <activity android:name="com.madhuurstta.wbvjkmatka.bazar"
+        <activity android:name="com.madhuurstta.makta.bazar"
             android:exported="false"/>
-        <activity android:name="com.madhuurstta.wbvjkmatka.notice"
+        <activity android:name="com.madhuurstta.makta.notice"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.rate"
+        <activity android:name="com.madhuurstta.makta.rate"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.profile"
+        <activity android:name="com.madhuurstta.makta.profile"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.signup"
+        <activity android:name="com.madhuurstta.makta.signup"
             android:exported="false"/>
-        <activity android:name="com.madhuurstta.wbvjkmatka.login"
+        <activity android:name="com.madhuurstta.makta.login"
             android:exported="false" />
-        <activity android:name="com.madhuurstta.wbvjkmatka.MainActivity"
+        <activity android:name="com.madhuurstta.makta.MainActivity"
             android:exported="false" />
 
         <meta-data

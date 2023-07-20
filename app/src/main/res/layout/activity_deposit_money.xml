@@ -34,7 +34,7 @@
                     app:tint="@color/md_white_1000" />
 
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -68,7 +68,7 @@
                     android:layout_height="wrap_content"
                     android:visibility="gone">
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@color/background"
@@ -79,7 +79,7 @@
                         android:textSize="21sp" />
 
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:id="@+id/wallet"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -140,13 +140,13 @@
                             android:layout_marginLeft="10dp"
                             android:orientation="vertical">
 
-                            <com.madhuurstta.wbvjkmatka.latobold
+                            <com.madhuurstta.makta.latobold
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Google Pay"
                                 android:textColor="@color/md_white_1000" />
 
-                            <com.madhuurstta.wbvjkmatka.latobold
+                            <com.madhuurstta.makta.latobold
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Auto approve"
@@ -177,13 +177,13 @@
                             android:layout_marginLeft="10dp"
                             android:orientation="vertical">
 
-                            <com.madhuurstta.wbvjkmatka.latobold
+                            <com.madhuurstta.makta.latobold
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Phone Pe"
                                 android:textColor="@color/md_white_1000" />
 
-                            <com.madhuurstta.wbvjkmatka.latobold
+                            <com.madhuurstta.makta.latobold
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Auto approve"
@@ -214,13 +214,13 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
 
-                            <com.madhuurstta.wbvjkmatka.latobold
+                            <com.madhuurstta.makta.latobold
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Paytm"
                                 android:textColor="@color/md_white_1000" />
 
-                            <com.madhuurstta.wbvjkmatka.latobold
+                            <com.madhuurstta.makta.latobold
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Manual approve by admin"
@@ -252,7 +252,7 @@
 
                 </RelativeLayout>
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:id="@+id/submit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -290,7 +290,7 @@
             android:src="@drawable/whatsapp"
             />
 
-        <com.madhuurstta.wbvjkmatka.latobold
+        <com.madhuurstta.makta.latobold
             android:layout_width="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_height="wrap_content"

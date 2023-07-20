@@ -22,7 +22,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_height="wrap_content">
 
-                <com.madhuurstta.wbvjkmatka.latobold
+                <com.madhuurstta.makta.latobold
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="12:00 AM 22/05/2022"
@@ -44,14 +44,14 @@
                     android:orientation="vertical"
                     android:layout_height="wrap_content">
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Amount"
                         android:textColor="@color/font"
                         />
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="1000"
@@ -72,14 +72,14 @@
                     android:layout_height="wrap_content"
                     tools:ignore="RtlHardcoded">
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Status"
                         android:textColor="@color/font"
                         />
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Pending"
@@ -95,7 +95,7 @@
 
             </RelativeLayout>
 
-            <com.madhuurstta.wbvjkmatka.latonormal
+            <com.madhuurstta.makta.latonormal
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -103,7 +103,7 @@
                 android:textColor="@color/font"
                 />
 
-            <com.madhuurstta.wbvjkmatka.latobold
+            <com.madhuurstta.makta.latobold
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="PhonePe"
@@ -113,14 +113,14 @@
                 />
 
 
-            <com.madhuurstta.wbvjkmatka.latonormal
+            <com.madhuurstta.makta.latonormal
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
                 android:text="Payment Details"
                 android:textColor="@color/font" />
 
-            <com.madhuurstta.wbvjkmatka.latobold
+            <com.madhuurstta.makta.latobold
                 android:layout_width="wrap_content"
                 android:id="@+id/payment_details"
                 android:layout_height="wrap_content"

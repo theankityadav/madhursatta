@@ -50,7 +50,7 @@
                     </androidx.cardview.widget.CardView>
 
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -93,7 +93,7 @@
                             android:layout_weight="1"
                             >
 
-                            <com.madhuurstta.wbvjkmatka.latobold
+                            <com.madhuurstta.makta.latobold
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Enter Number"
@@ -126,7 +126,7 @@
                             android:layout_weight="1"
                             >
 
-                            <com.madhuurstta.wbvjkmatka.latobold
+                            <com.madhuurstta.makta.latobold
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Enter Coins"
@@ -168,7 +168,7 @@
                         android:paddingEnd="10dp"
                         android:layout_height="0dp">
 
-                        <com.madhuurstta.wbvjkmatka.latonormal
+                        <com.madhuurstta.makta.latonormal
                             android:layout_width="wrap_content"
                             android:textColor="@color/font"
                             android:textSize="22sp"
@@ -194,7 +194,7 @@
 
                     </LinearLayout>
 
-                    <com.madhuurstta.wbvjkmatka.latobold
+                    <com.madhuurstta.makta.latobold
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Submit"

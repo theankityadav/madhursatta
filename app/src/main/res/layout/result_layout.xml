@@ -64,7 +64,7 @@
                         >
 
 
-                        <com.madhuurstta.wbvjkmatka.latobold
+                        <com.madhuurstta.makta.latobold
                             android:id="@+id/name"
                             android:layout_width="wrap_content"
                             android:background="@drawable/black_button"
@@ -97,7 +97,7 @@
                                 android:padding="10dp">
 
 
-                                <com.madhuurstta.wbvjkmatka.latobold
+                                <com.madhuurstta.makta.latobold
                                     android:id="@+id/status"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -142,7 +142,7 @@
                             </LinearLayout>
 
 
-                            <com.madhuurstta.wbvjkmatka.latobold
+                            <com.madhuurstta.makta.latobold
                                 android:id="@+id/result"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -172,7 +172,7 @@
                                 android:paddingRight="5dp"
                                 android:orientation="horizontal">
 
-                                <com.madhuurstta.wbvjkmatka.latobold
+                                <com.madhuurstta.makta.latobold
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_horizontal"
@@ -182,7 +182,7 @@
 
                                     />
 
-                                <com.madhuurstta.wbvjkmatka.latobold
+                                <com.madhuurstta.makta.latobold
                                     android:id="@+id/open_time"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -201,7 +201,7 @@
                                 android:paddingLeft="5dp"
                                 android:layout_height="wrap_content">
 
-                                <com.madhuurstta.wbvjkmatka.latobold
+                                <com.madhuurstta.makta.latobold
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center_horizontal"
@@ -211,7 +211,7 @@
 
                                     />
 
-                                <com.madhuurstta.wbvjkmatka.latobold
+                                <com.madhuurstta.makta.latobold
                                     android:id="@+id/close_time"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
