@@ -2,6 +2,20 @@ apply plugin: 'com.android.application'
  //apply plugin: 'com.google.gms.google-services'
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('/Users/abhishek/Documents/Local Disk Drive F/Ankit Kalyan Matka/SattaMatkaDhanKuber/madhursatta_dhankuber-main.zip/app/sattamakta.jks')
+            storePassword 'abhi1234'
+            keyAlias 'key0'
+            keyPassword 'abhi1234'
+        }
+        release {
+            storeFile file('/Users/abhishek/Documents/Local Disk Drive F/Ankit Kalyan Matka/SattaMatkaDhanKuber/madhursatta_dhankuber-main.zip/app/sattamakta.jks')
+            storePassword 'abhi1234'
+            keyAlias 'key0'
+            keyPassword 'abhi1234'
+        }
+    }
     compileSdkVersion 32
     defaultConfig {
         applicationId "com.madhuurstta.makta"
